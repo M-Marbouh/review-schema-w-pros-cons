@@ -1,0 +1,79 @@
+<script type="application/ld+json"> {
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "image": "https://LINK_TO_PRODUCT_IMAGE",
+  "name": "PRODUCT NAME>",
+  "description": "PRODUCT DESCRIPTION",
+  "brand": {
+    "@type": "Brand",
+    "name": "BRAND NAME",
+    "sameas": "https://BRAND_WEBSITE_URL"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://AFFILIATE_NAKED_URL_(NOT_CLOAKED)",
+    "itemCondition": "NewCondition",
+    "availability": "http://schema.org/InStock",
+    "price": "PUT THE ACTUAL PRODUCT PRiCE HERE (DO NOT USE COMMAS FOR DECIMALS eg. 15600.00 or 599.99)",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2022-12-31"
+  },
+  "review": {
+    "@type": "Review",
+    "datePublished": "YEAR-MONTH-DAY (xxxx-xx-xx)",
+    "url": "https://REVIEW_ARTICLE_URL",
+    "inLanguage": "en-US",
+    "description": "REVIEW CONTENT",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "PUT A DIGIT, WHAT THE RATING IS (EG. 4.8)",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "AUTHOT NAME",
+      "worksfor": "WEBSITE NAME"
+    },
+    "positiveNotes": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "INSERT 1st PRO (POSITIVE NOTE) HERE..."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "INSERT 2nd PRO (POSITIVE NOTE) HERE..."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "INSERT 3rd PRO (POSITIVE NOTE) HERE..."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "INSERT 4th PRO (POSITIVE NOTE) HERE..."
+        }
+      ]
+    },
+    "negativeNotes": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "INSERT 1st CON (NEGATIVE NOTE) HERE..."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "INSERT 2nd CON (NEGATIVE NOTE) HERE..."
+        }
+      ]
+    }
+  }
+} < /script>
