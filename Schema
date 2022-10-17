@@ -2,7 +2,7 @@
   "@context": "http://schema.org/",
   "@type": "Product",
   "image": "https://LINK_TO_PRODUCT_IMAGE",
-  "name": "PRODUCT NAME>",
+  "name": "PRODUCT NAME",
   "description": "PRODUCT DESCRIPTION",
   "brand": {
     "@type": "Brand",
@@ -16,7 +16,7 @@
     "availability": "http://schema.org/InStock",
     "price": "PUT THE ACTUAL PRODUCT PRiCE HERE (DO NOT USE COMMAS FOR DECIMALS eg. 15600.00 or 599.99)",
     "priceCurrency": "USD",
-    "priceValidUntil": "2022-12-31"
+    "priceValidUntil": "2022-12-31 (YEAR-MONTH-DAY (xxxx-xx-xx) YOU CAN MAKE THIS THE LAST DAY OF THE YEAR AF A WORKAROUND)"
   },
   "review": {
     "@type": "Review",
@@ -26,13 +26,13 @@
     "description": "REVIEW CONTENT",
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": "PUT A DIGIT, WHAT THE RATING IS (EG. 4.8)",
+      "ratingValue": "PUT A DIGIT, BETWEEN 1 AND 5, WHAT THE RATING IS (EG. 4.8)",
       "bestRating": "5",
       "worstRating": "1"
     },
     "author": {
       "@type": "Person",
-      "name": "AUTHOT NAME",
+      "name": "ARTICLE AUTHOT NAME",
       "worksfor": "WEBSITE NAME"
     },
     "positiveNotes": {
