@@ -23,7 +23,8 @@
     "datePublished": "YEAR-MONTH-DAY (xxxx-xx-xx)",
     "url": "https://REVIEW_ARTICLE_URL",
     "inLanguage": "en-US",
-    "description": "REVIEW CONTENT",
+    "description": "REVIEW CONTENT (POST EXCERPT IS FINE)",
+    "reviewBody": "ACTUAL REVIEW CONTENT",
     "reviewRating": {
       "@type": "Rating",
       "ratingValue": "PUT A DIGIT, BETWEEN 1 AND 5, WHAT THE RATING IS (EG. 4.8)",
